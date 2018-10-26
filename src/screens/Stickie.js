@@ -4,15 +4,12 @@ import "./css/Stickie.css";
 
 export default class Stickie extends Component {
   render() {
+    const { type, title } = this.props;
     return (
       <div className="container">
-        <div className="title">
-          {this.props.type}
-          {this.props.title}
-        </div>
-        <div className="note">
-          <input type="textarea" />
-        </div>
+        <div className="decor" />
+        <div className="title">{this.props.title}</div>.
+        <input className="note" type="textarea" />
       </div>
     );
   }

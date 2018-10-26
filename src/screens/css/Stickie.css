@@ -1,9 +1,18 @@
 .container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
   max-width: 200px;
-  max-height: 200px;
+  height: 200px;
   background-color: #61dafb;
 }
 .title {
 }
+.decor {
+  height: 10px;
+  background-color: #3bd3f9;
+}
 .note {
+  max-width: 200px;
+  max-height: 200px;
 }

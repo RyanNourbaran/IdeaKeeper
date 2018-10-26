@@ -1,3 +1,13 @@
+.App-logo {
+  opacity: 0.9;
+}
+
 /* @@ NEW @@ */
 .title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.idea {
 }
